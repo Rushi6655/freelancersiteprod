@@ -22,7 +22,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String welcome() {
-        return "Welcome to javatechie !!";
+        return "Welcome to user!!";
     }
 
     @PostMapping("/authenticate")
